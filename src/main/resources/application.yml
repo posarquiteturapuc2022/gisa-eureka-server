@@ -3,8 +3,8 @@ spring:
     name: gisa-eureka-server
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
   instance:
     hostname: https://gisa-eureka-server.herokuapp.com
 
