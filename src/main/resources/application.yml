@@ -5,6 +5,10 @@ server:
   port: ${PORT:8761}
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
-
+    #register eureka as application
+    register-with-eureka: true
+    #fetch all thing, we can get applications here
+    fetch-registry: true
+    #also you can specify the instance renewal time.
+  server:
+    enable-self-preservation: false
