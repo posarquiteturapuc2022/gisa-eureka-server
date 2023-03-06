@@ -1,1 +1,1 @@
-web: java -Dserver.port=8761 -Dspring.profiles.active=prod $JAVA_OPTS -jar target/gisa-eureka-server*.jar
+web: java -Dspring.profiles.active=prod $JAVA_OPTS -Dserver.port=8761 -jar target/gisa-eureka-server*.jar
